@@ -8,18 +8,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:text="baidu"
-        android:onClick="baidu"
+        android:text="权限"
+        android:id="@+id/getPrem"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></Button>
+        android:layout_height="wrap_content">
+
+    </Button>
+
     <Button
-        android:text="getPrem"
-        android:onClick="getPrem"
+        android:text="拍照"
+        android:id="@+id/photo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></Button>
+        android:layout_height="wrap_content">
+
+    </Button>
     <Button
-        android:text="photo"
-        android:onClick="photo"
+        android:id="@+id/select"
+        android:text="相册中选择"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -29,5 +34,6 @@
         android:id="@+id/imageView"
         android:layout_width="300dp"
         android:layout_height="300dp"></ImageView>
+
 
 </LinearLayout>
